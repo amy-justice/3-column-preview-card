@@ -18,7 +18,7 @@ body {
 }
 
 .main-container {
-    width: 60%;
+    width: 57rem;
     display: flex;
     flex-direction: row;
     color: #f3f3f3;

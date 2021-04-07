@@ -8,13 +8,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/amy-justice/3-column-preview-card)
-- Live Site URL: [Add live site URL here](https://romantic-hugle-f99495.netlify.app/)
+- Solution URL: [https://github.com/amy-justice/3-column-preview-card](https://github.com/amy-justice/3-column-preview-card)
+- Live Site URL: [https://romantic-hugle-f99495.netlify.app/](https://romantic-hugle-f99495.netlify.app/)
 
 ### Built with
 

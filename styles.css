@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    color: #f3f3f3;
+}
+
+.car-container {
+    padding: 50px;
+    line-height: 1.5rem;
+
+}
+
+.sedan {
+    background-color: #e28527;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.sedan button {
+    color: #e28527;
+}
+
+.suv {
+    background-color: #016972;
+}
+
+.suv button {
+    color: #016972;
+}
+
+.luxury {
+    background-color: #00403f;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.luxury button {
+    color: #00403f;
+}
+
+.car-header {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 2.5rem 0;
+}
+
+.learn-more-btn {
+    background-color: #f3f3f3;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    border: 0.1rem #f3f3f3 solid;
+    display: block;
+    margin-top: 5rem;
+}
+
+.learn-more-btn:hover {
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.attribution {
+    color: #aaa;
+    margin-top: 0.5rem;
+}
+
+.attribution a {
+    color:#016972;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #e28527;
+}
+
+
+
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 480px) {
+    body {
+        justify-content: flex-start;
+        padding: 2rem 0;
+    }
+
+    .main-container {
+        width: 80%;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    .learn-more-btn {
+        margin-top: 1.5rem;
+    }
+
+    .sedan {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    .attribution {
+        padding-bottom: 1rem;
+    }
+}
